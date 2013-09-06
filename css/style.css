@@ -1,0 +1,119 @@
+.article {
+  background: url(../img/grain.png) repeat #333333;
+  color: #fff;
+  line-height: 1.5em;
+  padding: 10px 20px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(150, 150, 150, 0.1);
+}
+article h2 {
+  font-family: 'Lobster Two';
+  font-size: 60px;
+  margin: 25px 0;
+  line-height: 1em;
+  color: #ccc;
+}
+article p {
+  margin-bottom: 25px;
+  color: #ccc;
+}
+.story {
+  height: 1000px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  margin: 0 auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+}
+#first {
+  background: url(../img/puckered.png) 50% 0 no-repeat fixed;
+}
+#second {
+  background: url(../img/slide2.jpg) 50% 0 no-repeat fixed;
+}
+#third {
+  background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
+}
+#fourth {
+  background: url(../img/slide4.jpg) 50% 0 no-repeat fixed;
+}
+#theend {
+  background: url(../img/puckered.png) 50% bottom no-repeat fixed;
+}
+#first .dedicate {
+  background: url("../img/it_crowd_logo.jpg") 50% 100px no-repeat fixed;
+  height: 1000px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  margin: 0 auto;
+}
+#first article {
+  width: 100%;
+  top: 300px;
+  position: absolute;
+  text-align: center;
+}
+#first article h2,
+#first article p {
+  color: #e0e0e0;
+}
+#first article p {
+  width: 80%;
+  margin: 0 auto;
+}
+#second {
+  padding: 50px 0;
+}
+#second article {
+  background: url(../img/grain.png) repeat #333333;
+  color: #fff;
+  line-height: 1.5em;
+  padding: 10px 20px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(150, 150, 150, 0.1);
+  width: 445px;
+  margin-left: 100px;
+}
+#third article {
+  background: url(../img/grain.png) repeat #333333;
+  color: #fff;
+  line-height: 1.5em;
+  padding: 10px 20px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(150, 150, 150, 0.1);
+  margin: 100px 0 0 50%;
+  position: absolute;
+  top: 0;
+}
+#fourth article {
+  background: url(../img/grain.png) repeat #333333;
+  color: #fff;
+  line-height: 1.5em;
+  padding: 10px 20px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(150, 150, 150, 0.1);
+  width: 445px;
+  margin-left: 100px;
+}
+#theend .byebye {
+  background: url("../img/theend.png") 50% 100px no-repeat fixed;
+  height: 1000px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  margin: 0 auto;
+  background-position: 50% 80%;
+}

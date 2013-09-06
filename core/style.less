@@ -1,0 +1,103 @@
+.inc-image(@url) { 
+    background: url(@url) 50% 100px no-repeat fixed;
+    height: 1000px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    margin: 0 auto;
+}
+.article {
+  background: url(../img/grain.png) repeat #333;
+  color: #fff;
+  line-height: 1.5em;
+  padding: 10px 20px;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+  box-shadow: 0 0 25px rgba(0,0,0,0.3);
+  border: 1px solid rgba(150,150,150,0.1);
+}
+
+article {
+  h2 {
+    font-family: 'Lobster Two';
+    font-size: 60px;
+    margin: 25px 0;
+    line-height: 1em;
+    color: #ccc;
+  }
+  p { 
+    margin-bottom: 25px;
+    color: #ccc;
+  }
+}
+
+.story {
+  height: 1000px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  margin: 0 auto;
+  border-top: 1px solid rgba(255,255,255,0.3);
+  border-bottom: 1px solid rgba(0,0,0,0.4);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#first  { background: url(../img/puckered.png) 50% 0 no-repeat fixed; }
+#second { background: url(../img/slide2.jpg) 50% 0 no-repeat fixed; }
+#third  { background: url(../img/slide3.jpg) 50% 0 no-repeat fixed; }
+#fourth { background: url(../img/slide4.jpg) 50% 0 no-repeat fixed; }
+#theend { background: url(../img/puckered.png) 50% bottom no-repeat fixed; }
+
+#first {
+  .dedicate {
+    .inc-image("../img/it_crowd_logo.jpg");
+  }
+  article {
+    width: 100%;
+    top: 300px;
+    position: absolute;
+    text-align: center;
+      h2, p { color: #e0e0e0; }
+      p {
+      width: 80%;
+      margin:0 auto;
+    }
+  }  
+}
+
+#second {
+  padding: 50px 0;
+  
+  article {
+    .article();
+    width: 445px;
+    margin-left: 100px;
+  }
+}
+        
+#third {
+  article {
+    .article();
+    margin: 100px 0 0 50%;
+    position: absolute;
+    top: 0;
+  }
+}
+
+#fourth {
+  article {
+    .article();
+    width: 445px;
+    margin-left: 100px;
+  }
+}
+  
+#theend {
+  .byebye {
+    .inc-image("../img/theend.png");
+    background-position: 50% 80%;
+  }
+}
